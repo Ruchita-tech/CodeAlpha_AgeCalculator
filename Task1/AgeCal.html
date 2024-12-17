@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+  <link rel="stylesheet" href="AgeCal.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Age Calculator</h1>
+
+   
+    <div class="input-section">
+      <label for="dob">Enter your Date of Birth:</label>
+      <input type="date" id="dob" class="date-input">
+    </div>
+    
+    <button class="btn-calculate" onclick="calculateAge()">Calculate Age</button>
+    <button class="btn-clear" onclick="clearDOB()">Clear</button>
+    
+    <div id="age-result" class="age-output"></div>
+  </div>
+
+  <script src="AgeCal.js"></script>
+</body>
+</html>
